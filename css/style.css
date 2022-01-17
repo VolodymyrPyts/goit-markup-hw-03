@@ -1,0 +1,213 @@
+/* главный цвет фона #FFFFFF */
+/* вспомогательный цвет фона #2F303A */
+/* головный цвет текста #757575 */
+/* вспомогательный цвет текста #212121 */
+/* цвет кнопок главный #F5F4FA */
+/* цвет кнопок вспомогательны #2196F3 */
+/*цвет лого #000000 */
+/*рамка*/
+
+:root {
+  --first-fon-color: #ffffff;
+  --secondary-fon-color: #2f303a;
+  --first-color-text: #757575;
+  --secondary-color-text: #212121;
+  --first-button-color: #f5f4fa;
+  --secondary-button-color: #2196f3;
+  --logo-color: #000000;
+  --border-color: #eeeeee;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--first-fon-color);
+  color: var(--first-color-text);
+  font-size: 14px;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+.head {
+  background-color: var(--first-fon-color);
+}
+.head-logo {
+  text-decoration: none;
+  color: var(--secondary-button-color);
+  font-family: Raleway, Arial, Helvetica, sans-serif;
+  font-size: 26px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.head-nav,
+.head-adress,
+.list-work,
+.list-team,
+.filtr,
+.project {
+  list-style: none;
+}
+
+.span-logo {
+  color: var(--secondary-color-text);
+}
+
+.link {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color-text);
+}
+
+.link:hover,
+.link:focus {
+  color: var(--secondary-button-color);
+}
+.link:active {
+  color: var(--secondary-button-color);
+}
+
+/*оформлення тіла*/
+/*оформлення постера*/
+.main-poster {
+  background-color: var(--secondary-fon-color);
+}
+
+.heading-taxt {
+  color: var(--first-fon-color);
+  text-transform: uppercase;
+  font-size: 44px;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+  line-height: 1.4;
+}
+
+.button-secondary {
+  cursor: pointer;
+  background-color: var(--secondary-button-color);
+  color: var(--first-fon-color);
+  height: 50px;
+  width: 200px;
+  border: none;
+  border-radius: 4px;
+  font-size: 16px;
+  letter-spacing: 0.06em;
+  line-height: 1.9;
+  font-weight: 700;
+}
+/*оформление блока наши возможности*/
+.object-none {
+  display: none;
+  list-style: none;
+}
+.our-work {
+  list-style: none;
+}
+
+.our-aim {
+  font-weight: 700;
+  line-height: 1.15;
+  text-transform: uppercase;
+  color: var(--secondary-color-text);
+  font-size: 14px;
+}
+/*сем мы занимаемся*/
+.main-team {
+  background-color: var(--first-button-color);
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+/*сектор наша команда*/
+
+.topic {
+  color: var(--secondary-color-text);
+  font-weight: 700;
+  font-size: 36px;
+}
+.team-cards {
+  background-color: var(--first-fon-color);
+  width: 270px;
+}
+.my-name {
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--secondary-color-text);
+}
+/*сектор footer*/
+
+.span-logo-footer {
+  color: var(--first-fon-color);
+}
+.footer {
+  background-color: var(--secondary-fon-color);
+}
+.adress {
+  font-style: normal;
+}
+
+.link-footer {
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.link-adress {
+  color: var(--first-fon-color);
+}
+
+/*Portfolio*/
+
+.filtr-button {
+  border-radius: 4px;
+  border-color: var(--first-button-color);
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  color: var(--secondary-color-text);
+  background-color: var(--first-button-color);
+  border: none;
+}
+
+.filtr-button:hover,
+.filtr-button:focus {
+  color: var(--first-fon-color);
+  background-color: var(--secondary-button-color);
+  background-color: var(--secondary-button-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.filtr-button:active {
+  color: var(--first-fon-color);
+  background-color: var(--secondary-button-color);
+  background-color: var(--secondary-button-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+}
+
+.project-card {
+  background-color: var(--first-fon-color);
+  border: 1px solid var(--border-color);
+  box-sizing: border-box;
+  width: 370px;
+}
+
+.card-realm {
+  font-size: 16px;
+  line-height: 1.87;
+}
+.project-img {
+  width: 100%;
+}
+
+.card-name {
+  color: var(--secondary-color-text);
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
