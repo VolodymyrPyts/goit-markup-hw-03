@@ -37,7 +37,7 @@ body {
   font-family: Raleway, Arial, Helvetica, sans-serif;
   font-size: 26px;
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.19;
 }
 
 .head-nav,
@@ -53,20 +53,31 @@ body {
   color: var(--secondary-color-text);
 }
 
-.link {
+.head-nav-link {
   text-decoration: none;
   font-size: 14px;
   font-weight: 500;
-  line-height: 1.15;
+  line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--secondary-color-text);
 }
+.head-nav-contact {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--first-color-text);
+}
 
-.link:hover,
-.link:focus {
+.head-nav-link:hover,
+.head-nav-link:focus,
+.head-nav-link:active {
   color: var(--secondary-button-color);
 }
-.link:active {
+.head-nav-contact:hover,
+.head-nav-contact:focus,
+.head-nav-contact:active {
   color: var(--secondary-button-color);
 }
 
@@ -76,13 +87,13 @@ body {
   background-color: var(--secondary-fon-color);
 }
 
-.heading-taxt {
+.heading-text {
   color: var(--first-fon-color);
   text-transform: uppercase;
   font-size: 44px;
   font-weight: 900;
   letter-spacing: 0.06em;
-  line-height: 1.4;
+  line-height: 1.36;
 }
 
 .button-secondary {
