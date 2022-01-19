@@ -62,7 +62,7 @@ img {
   padding-right: 15px;
   margin: 0 auto;
 
-  outline: 1px solid red;
+  /* outline: 1px solid red; */
 }
 
 .head {
@@ -148,9 +148,11 @@ img {
 /*оформлення тіла*/
 /*оформлення постера*/
 .main-poster {
+  margin-bottom: 84px;
+  padding-top: 200px;
+  padding-bottom: 200px;
   background-color: var(--secondary-fon-color);
   text-align: center;
-  margin-bottom: 94px;
 }
 
 .heading-text {
@@ -188,7 +190,7 @@ img {
 /*оформление блока наши возможности*/
 
 .main-pecul {
-  margin-bottom: 94px;
+  margin-bottom: 80px;
 }
 
 .visually-hidden {
@@ -223,14 +225,7 @@ img {
   color: var(--secondary-color-text);
   font-size: 14px;
 }
-/*сем мы занимаемся*/
-.main-team {
-  background-color: var(--first-button-color);
-  font-size: 16px;
-  line-height: 1.19;
-}
-
-/*сектор наша команда*/
+/*чем мы занимаемся*/
 
 .topic {
   margin-bottom: 50px;
@@ -243,7 +238,7 @@ img {
 }
 .topic-work {
   display: flex;
-  flex-basis: calc((100% - 90px) / 3);
+  flex-basis: calc((100% - 60px) / 3);
   margin-bottom: 94px;
 }
 .topic-list {
@@ -253,11 +248,43 @@ img {
   margin-right: 0;
 }
 
-.team-cards {
-  background-color: var(--first-fon-color);
-  width: 270px;
+/*сектор наша команда*/
+
+.main-team {
+  padding-top: 94px;
+  padding-bottom: 94px;
+
+  background-color: var(--first-button-color);
+  font-size: 16px;
+  line-height: 1.19;
 }
+
+.list-team {
+  display: flex;
+  flex-basis: calc((100%-90px) / 4);
+  text-align: center;
+}
+
+.team-cards {
+  margin-right: 30px;
+  padding-bottom: 30px;
+
+  background-color: var(--first-fon-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+
+.team-cards:last-child {
+  margin-right: 0;
+}
+
+.team-image {
+  margin-bottom: 30px;
+}
+
 .my-name {
+  padding-bottom: 10px;
   font-size: 16px;
   font-weight: 500;
   color: var(--secondary-color-text);
