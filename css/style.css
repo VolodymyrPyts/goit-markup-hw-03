@@ -215,9 +215,6 @@ img {
   font-size: 14px;
 }
 /*чем мы занимаемся*/
-.main-work {
-  padding-top: 0;
-}
 
 .topic {
   margin-bottom: 50px;
@@ -240,12 +237,13 @@ img {
 }
 
 /*сектор наша команда*/
-
+.main-work {
+  padding-top: 0;
+}
 .main-team {
-  padding-top: 94px;
-  padding-bottom: 94px;
-
   background-color: var(--first-button-color);
+}
+.my-work {
   font-size: 16px;
   line-height: 1.19;
 }
@@ -328,10 +326,6 @@ img {
   margin-bottom: 94px;
 }
 
-.portfol-head {
-  margin-bottom: 94px;
-}
-
 .filtr {
   display: flex;
   justify-content: center;
@@ -353,7 +347,7 @@ img {
   cursor: pointer;
 }
 .filtr-list {
-  margin-right: 30px;
+  margin-right: 8px;
 }
 
 .filtr-list:last-child {
@@ -385,7 +379,7 @@ img {
 .project-card {
   flex-basis: calc((100% - 60px) / 3);
   background-color: var(--first-fon-color);
-  border: 1px solid var(--border-color);
+
   margin-right: 30px;
   margin-bottom: 30px;
 }
@@ -408,14 +402,14 @@ img {
 
 .project-img {
   margin: 0 auto;
-  margin-bottom: 20px;
-
   max-width: 100%;
 }
 .card-cont {
+  padding-top: 20px;
   padding-left: 24px;
   padding-bottom: 20px;
   padding-right: 24px;
+  border: 1px solid var(--border-color);
 }
 .card-name {
   color: var(--secondary-color-text);
